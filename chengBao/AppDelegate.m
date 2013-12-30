@@ -34,7 +34,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [NSThread sleepForTimeInterval:2];
-    NSLog(@"begin to ");
+    NSLog(@"begin to love ");
     [ShareSDK registerApp:@"f4c95a94633"];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:NO];
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
