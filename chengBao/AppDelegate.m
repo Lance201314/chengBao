@@ -34,8 +34,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [NSThread sleepForTimeInterval:2];
-    NSLog(@"begin to love ");
     [ShareSDK registerApp:@"f4c95a94633"];
+    NSLog(@"wogoiegjrr");
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:NO];
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
